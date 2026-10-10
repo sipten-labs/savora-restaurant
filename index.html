@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d0d0d">
+  <meta name="description" content="SAVORA — modern botanical and fire dining. Explore seasonal menus, signature dishes and an intimate dining experience.">
+  <title>SAVORA — Culinary Artistry</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="demo-ribbon">INDEPENDENT PORTFOLIO CONCEPT <span>•</span> NOT A REAL RESTAURANT</div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Savora home"><span class="brand-mark">S</span><span class="brand-word">SAVORA<small>BOTANICAL & FIRE</small></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#home" class="nav-link active">Home</a><a href="#menu" class="nav-link">Menu</a><a href="#story" class="nav-link">Our Story</a><a href="#gallery" class="nav-link">Gallery</a><a href="#contact" class="nav-link">Contact</a>
+      <a href="#reservations" class="button button-small nav-book">Reserve a Table <span>↗</span></a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image" role="img" aria-label="Fine dining dish in warm cinematic light"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> MODERN BOTANICAL & FIRE DINING</p>
+        <h1>A little wild.<br><em>Entirely unforgettable.</em></h1>
+        <p class="hero-copy">A seasonal journey shaped by open flame, thoughtful ingredients, and the beauty of the unexpected.</p>
+        <div class="hero-actions"><a href="#menu" class="button">Explore the menu <span>↗</span></a><a href="#reservations" class="text-link">Book your evening <span>→</span></a></div>
+      </div>
+      <div class="hero-caption"><span>SEASONAL. SENSORY. SOULFUL.</span><span>01 / 06</span></div>
+      <a href="#story" class="scroll-cue"><span></span> SCROLL TO DISCOVER</a>
+    </section>
+
+    <section class="intro section-pad" id="story">
+      <div class="section-kicker reveal">01 — OUR PHILOSOPHY</div>
+      <div class="intro-grid">
+        <h2 class="display-title reveal">Rooted in nature.<br><em>Made for the moment.</em></h2>
+        <div class="intro-copy reveal"><p class="large-copy">We believe the most memorable meals begin long before the first bite.</p><p>They begin in the soil, in the rhythm of the seasons, and in the quiet alchemy of fire. At SAVORA, each plate tells a story of place, patience, and possibility.</p><a href="#story-details" class="underlined-link">The SAVORA philosophy <span>↗</span></a></div>
+      </div>
+      <div class="intro-image-wrap reveal"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1800&q=85" alt="An intimate restaurant dining room prepared for an evening service" loading="lazy"><div class="image-note">GOOD FOOD. GOOD FIRE. GOOD COMPANY.</div></div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="section-heading reveal"><div><div class="section-kicker">02 — FROM OUR KITCHEN</div><h2 class="display-title">A menu with <em>season.</em></h2></div><p>Honest ingredients, considered technique, and a little creative fire. Our menu changes with what the earth gives us.</p></div>
+      <div class="menu-tabs" role="group" aria-label="Filter menu items">
+        <button class="filter-tab active" data-filter="all">All dishes</button><button class="filter-tab" data-filter="starters">Starters & raw bar</button><button class="filter-tab" data-filter="mains">Mains & hearth</button><button class="filter-tab" data-filter="desserts">Desserts</button><button class="filter-tab" data-filter="drinks">Cocktails</button>
+      </div>
+      <div class="dish-grid" id="dish-grid">
+        <article class="dish-card reveal" data-category="starters" data-name="Charred Heirloom Carrots" data-description="Fire-kissed heirloom carrots, whipped smoked ricotta, toasted hazelnut, garden herbs and a bright citrus dressing." data-price="₹680" data-tags="VEGETARIAN · SIGNATURE" data-image="photo-1547592180-85f173990554"><button class="dish-image" aria-label="View Charred Heirloom Carrots details"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=82" alt="Colorful seasonal vegetable dish" loading="lazy"><span class="dish-plus">↗</span></button><div class="dish-meta"><span>STARTER · VEGETARIAN</span><span>₹680</span></div><h3>Charred Heirloom Carrots</h3><p>Smoked ricotta · hazelnut · garden herbs</p></article>
+        <article class="dish-card reveal" data-category="mains" data-name="Ember-Roasted Cauliflower" data-description="Whole-roasted cauliflower brushed with brown butter, served with silky tahini, pomegranate, crisp leaves and a warm spice oil." data-price="₹1,150" data-tags="VEGETARIAN · HEARTH" data-image="photo-1512621776951-a57141f2eefd"><button class="dish-image" aria-label="View Ember-Roasted Cauliflower details"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=82" alt="Fresh vegetable-forward plate" loading="lazy"><span class="dish-plus">↗</span></button><div class="dish-meta"><span>FROM THE HEARTH</span><span>₹1,150</span></div><h3>Ember-Roasted Cauliflower</h3><p>Brown butter · tahini · pomegranate</p></article>
+        <article class="dish-card reveal" data-category="mains" data-name="Wild Mushroom Risotto" data-description="Slow-stirred arborio rice, wild mushrooms, aged parmesan, thyme and a delicate finish of truffle oil." data-price="₹1,380" data-tags="VEGETARIAN · HOUSE FAVOURITE" data-image="photo-1476124369491-e7addf5db371"><button class="dish-image" aria-label="View Wild Mushroom Risotto details"><img src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=900&q=82" alt="Creamy mushroom risotto" loading="lazy"><span class="dish-plus">↗</span></button><div class="dish-meta"><span>HOUSE FAVOURITE</span><span>₹1,380</span></div><h3>Wild Mushroom Risotto</h3><p>Wild mushrooms · aged parmesan · thyme</p></article>
+        <article class="dish-card reveal" data-category="starters" data-name="Citrus Garden Salad" data-description="A vivid mix of seasonal leaves, shaved fennel, citrus segments, seeds and a delicate honey-mustard vinaigrette." data-price="₹620" data-tags="VEGAN OPTION · FRESH" data-image="photo-1512621776951-a57141f2eefd"><button class="dish-image" aria-label="View Citrus Garden Salad details"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=82" alt="Fresh garden salad with seasonal ingredients" loading="lazy"><span class="dish-plus">↗</span></button><div class="dish-meta"><span>GARDEN · FRESH</span><span>₹620</span></div><h3>Citrus Garden Salad</h3><p>Seasonal leaves · fennel · citrus</p></article>
+        <article class="dish-card reveal" data-category="desserts" data-name="Dark Chocolate & Sea Salt" data-description="Silky dark chocolate crémeux, cocoa crumble, sea salt and seasonal berries. Rich, balanced and not too sweet." data-price="₹590" data-tags="SIGNATURE DESSERT" data-image="photo-1488477181946-6428a0291777"><button class="dish-image" aria-label="View Dark Chocolate and Sea Salt details"><img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=82" alt="Elegant chocolate dessert" loading="lazy"><span class="dish-plus">↗</span></button><div class="dish-meta"><span>SWEET FINISH</span><span>₹590</span></div><h3>Dark Chocolate & Sea Salt</h3><p>Chocolate crémeux · cocoa · berries</p></article>
+        <article class="dish-card reveal" data-category="drinks" data-name="Rosemary Citrus Spritz" data-description="A bright, alcohol-free botanical spritz with citrus, rosemary syrup, sparkling water and a fragrant herb garnish." data-price="₹420" data-tags="ZERO PROOF · BOTANICAL" data-image="photo-1513558161293-cdaf765edfd7"><button class="dish-image" aria-label="View Rosemary Citrus Spritz details"><img src="https://images.unsplash.com/photo-1513558161293-cdaf765edfd7?auto=format&fit=crop&w=900&q=82" alt="Citrus drink with fresh herbs" loading="lazy"><span class="dish-plus">↗</span></button><div class="dish-meta"><span>ZERO-PROOF COCKTAIL</span><span>₹420</span></div><h3>Rosemary Citrus Spritz</h3><p>Citrus · rosemary · sparkling water</p></article>
+      </div>
+      <div class="menu-footnote"><span>* Menu and prices are illustrative for this portfolio concept.</span><a class="underlined-link" href="#reservations">Plan your visit <span>↗</span></a></div>
+    </section>
+
+    <section class="quote-section"><div class="quote-backdrop"></div><div class="quote-content reveal"><span class="quote-mark">“</span><blockquote>Let the ingredient speak.<br>Let the fire tell the rest.</blockquote><p>THE SAVORA KITCHEN PHILOSOPHY</p></div></section>
+
+    <section class="experience section-pad" id="story-details"><div class="experience-grid"><div class="experience-copy reveal"><div class="section-kicker">03 — THE EXPERIENCE</div><h2 class="display-title">Gather around<br><em>something good.</em></h2><p>Come as you are. Stay a little longer. Whether it’s a slow dinner for two or a table full of your favourite people, we make room for the moments that matter.</p><div class="experience-detail"><span class="detail-icon">✳</span><div><h3>Season-led cooking</h3><p>Ingredients at their best, treated with care and imagination.</p></div></div><div class="experience-detail"><span class="detail-icon">✳</span><div><h3>Fire, thoughtfully used</h3><p>Smoke, char and warmth that bring depth without taking over.</p></div></div><a href="#reservations" class="button">Find your table <span>↗</span></a></div><div class="experience-photo reveal"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85" alt="Warm, intimate restaurant interior" loading="lazy"><span class="photo-index">SAVORA / THE ROOM</span></div></div></section>
+
+    <section class="reservation-section section-pad" id="reservations"><div class="reservation-intro reveal"><div class="section-kicker">04 — YOUR EVENING, AWAITING</div><h2 class="display-title">Make a moment<br><em>of it.</em></h2><p>Tell us a little about your visit. This portfolio demo will create a sample confirmation locally; it will not send a real booking.</p><div class="reservation-note"><span>✦</span><div><strong>A note on reservations</strong><p>For this demo, no table is actually reserved and no personal details are sent to a server.</p></div></div></div>
+      <form class="reservation-form reveal" id="reservation-form" novalidate>
+        <div class="form-topline"><span>REQUEST A TABLE</span><span>01 — 04</span></div>
+        <div class="form-row"><label>YOUR NAME<input name="name" autocomplete="name" placeholder="Full name" required minlength="2"></label><label>EMAIL ADDRESS<input name="email" type="email" autocomplete="email" placeholder="you@example.com" required></label></div>
+        <div class="form-row"><label>DATE<input name="date" id="reservation-date" type="date" required></label><label>TIME<select name="time" required><option value="">Choose a time</option><option>5:30 PM</option><option>6:00 PM</option><option>6:30 PM</option><option>7:00 PM</option><option>7:30 PM</option><option>8:00 PM</option><option>8:30 PM</option><option>9:00 PM</option></select></label></div>
+        <div class="form-row"><label>GUESTS<select name="guests" required><option value="">Party size</option><option>1 guest</option><option>2 guests</option><option>3 guests</option><option>4 guests</option><option>5 guests</option><option>6 guests</option><option>7 guests</option><option>8 guests</option></select></label><label>SEATING<select name="seating"><option>Surprise me</option><option>Dining room</option><option>Chef's counter</option><option>Quiet corner</option></select></label></div>
+        <label>ANYTHING WE SHOULD KNOW? <textarea name="notes" rows="3" placeholder="Dietary needs, occasion, or a little note (optional)"></textarea></label>
+        <label class="check-label"><input type="checkbox" name="demoConsent" required><span>I understand this is a demonstration form and does not make a real reservation.</span></label>
+        <button class="button button-full" type="submit">Create demo confirmation <span>↗</span></button><p class="form-message" id="reservation-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="gallery-section section-pad" id="gallery"><div class="section-heading reveal"><div><div class="section-kicker">05 — A CLOSER LOOK</div><h2 class="display-title">The art of <em>the table.</em></h2></div><p>A glimpse into the colours, textures and small rituals that make an evening feel different.</p></div>
+      <div class="gallery-grid"><button class="gallery-item gallery-tall reveal" data-full="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1800&q=90" aria-label="Open dining table photograph"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=82" alt="Elegant dining table and plates" loading="lazy"><span>01 / THE TABLE ↗</span></button><button class="gallery-item reveal" data-full="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1800&q=90" aria-label="Open seasonal food photograph"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=82" alt="Colourful seasonal food" loading="lazy"><span>02 / THE INGREDIENT ↗</span></button><button class="gallery-item reveal" data-full="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1800&q=90" aria-label="Open restaurant interior photograph"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=82" alt="Warm restaurant interior" loading="lazy"><span>03 / THE ROOM ↗</span></button><button class="gallery-item reveal" data-full="https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=1800&q=90" aria-label="Open risotto photograph"><img src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=900&q=82" alt="A carefully plated risotto dish" loading="lazy"><span>04 / THE CRAFT ↗</span></button></div>
+    </section>
+
+    <section class="visit-section section-pad" id="contact"><div class="visit-left reveal"><div class="section-kicker">06 — COME FIND US</div><h2 class="display-title">Your seat<br><em>is waiting.</em></h2><p>In this fictional concept, SAVORA is imagined as a neighbourhood destination for thoughtful food and unhurried evenings.</p><div class="visit-info"><div><span>THE DOORS</span><p>Tuesday – Sunday<br>5:30 PM – 10:30 PM</p></div><div><span>THE ADDRESS</span><p>12 Garden Lane<br>New Delhi, India <small>(concept location)</small></p></div></div></div>
+      <div class="contact-card reveal"><span class="contact-ornament">S.</span><div class="section-kicker">A NOTE TO SAVORA</div><h3>Something on your mind?</h3><p>For an occasion, a menu question, or simply to say hello, leave a note below. This form is a local demo only.</p><form id="contact-form" novalidate><label class="sr-only" for="contact-email">Your email</label><input id="contact-email" name="email" type="email" placeholder="Your email address" required><label class="sr-only" for="contact-note">Your message</label><textarea id="contact-note" name="message" placeholder="Write your note..." rows="3" required minlength="5"></textarea><button class="button button-full" type="submit">Prepare message <span>↗</span></button><p class="form-message" id="contact-message" role="status" aria-live="polite"></p></form></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-top"><a class="brand" href="#home"><span class="brand-mark">S</span><span class="brand-word">SAVORA<small>BOTANICAL & FIRE</small></span></a><p>Good food is never just food.<br><em>It’s how we come together.</em></p><a href="#top" class="back-top">BACK TO TOP ↑</a></div><div class="footer-bottom"><span>© 2026 SAVORA CONCEPT. SELF-INITIATED PORTFOLIO PROJECT.</span><span>MADE WITH INTENTION <b>✦</b></span><div><a href="#menu">Menu</a><a href="#reservations">Reservations</a><a href="#contact">Contact</a></div></div></footer>
+
+  <dialog class="dish-dialog" id="dish-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close dish details">×</button><img id="dialog-image" src="" alt=""><div class="dialog-content"><span id="dialog-tags" class="dish-tag"></span><h2 id="dialog-title"></h2><p id="dialog-description"></p><div class="dialog-bottom"><strong id="dialog-price"></strong><a href="#reservations" class="button dialog-reserve">Plan your visit <span>↗</span></a></div></div></dialog>
+  <dialog class="gallery-dialog" id="gallery-dialog" aria-label="Gallery image"><button class="dialog-close" aria-label="Close gallery image">×</button><button class="gallery-prev" aria-label="Previous image">←</button><img id="gallery-dialog-image" src="" alt=""><button class="gallery-next" aria-label="Next image">→</button><span class="gallery-dialog-count"></span></dialog>
+  <dialog class="confirmation-dialog" id="confirmation-dialog" aria-labelledby="confirmation-title"><button class="dialog-close" aria-label="Close confirmation">×</button><div class="ticket"><div class="ticket-brand">SAVORA <span>✦</span></div><div class="ticket-rule"></div><span class="section-kicker">YOUR DEMO REQUEST</span><h2 id="confirmation-title">An evening to look forward to.</h2><p class="ticket-subtitle">This is a sample confirmation only. No table has been booked.</p><div class="ticket-id"><span>REFERENCE</span><strong id="ticket-reference"></strong></div><div class="ticket-details" id="ticket-details"></div><button class="button button-full" id="print-ticket" type="button">Print confirmation ↗</button></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
